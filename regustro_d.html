@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Registro de Departamentos</title>
+    <link rel="stylesheet" type="text/css" href="css/Dep.css">
+     <link rel="stylesheet" type="text/css" href="css/estilos-generales.css">
+	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
+  <link rel="stylesheet" type="text/css" href="css/v.css">
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="ico">
+    <!-- Metas Responsivo -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body>
+   <!-- Redes Sociales -->
+<div class="redes-sociales">
+    <a href="https://www.facebook.com/MITURElSalvador/" target="_blank" title="S&iacute;guenos en Facebook"><div class="fb"></div></a> <!-- FACEBOOK -->
+    <a href="https://www.youtube.com/channel/UCdXJsUchhGTySSflB9fONNQ" target="_blank" title="S&iacute;guenos en Youtube"><div class="yt"></div></a> <!-- YOUTUBE -->
+    <a href="https://twitter.com/miturelsalvador?lang=es" target="_blank" title="S&iacute;guenos en Twitter"><div class="tw"></div></a> <!-- TWITTER -->
+    <a href="regustro_d.html" target="_blank" title="Agregar Nuevo Departamento"><div class="nuevo_departamento"></div></a> <!-- Agregar Nuevo Departamento -->
+    <a href="registro_u.html" target="_blank" title="Registro / Iniciar Sesi&oacute;n"><div class="login"></div></a> <!-- Inicio Sesion / Registro Usuarios -->
+</div> 
+
+<!-- Fin Redes Sociales -->    
+<div class="fondo_login">      
+<div class="contenedor_general">
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" title="MITUR El Salvador" alt="Logo MITUR El Salvador">
+        </div><!-- Cierre Logo MITUR -->
+        <div id="menu_responsivo" onclick="control_menu('menu_MITUR')"> <!-- Evento onclick unicamente funcional en menu con resolucion menor a 1024 px -->
+            <a href="#"><img src="img/icono-menu-responsivo.png" title="Bot&oacute;n Men&uacute; Responsivo" alt="Bot&oacute;nn Men&uacute; Responsivo"></a>
+        </div><!-- Cierre Menu Responsivo -->
+        <ul id="menu_MITUR">
+            <li><a class="menu_activo" href="index.html">Inicio</a></li>
+            <li><a href="login.html">Iniciar Sesi&oacute;n</a></li>
+            <li><a href="#enlace_control_mapa_animado">Mapa Animado</a></li>
+            <li><a href="#">Desarrolladores</a></li>
+            <li><a href="#">Cont&aacute;ctanos</a></li>
+        </ul><!-- Cierre Lista de Opciones Menu MITUR -->
+    </header><!-- Cierre Header -->
+    <div id="wrapper">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Registrar Departamentos</legend>
+                <div>
+                    <input type="text" placeholder="Nombre"  id='nombre' required pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" data-error-message="requerido">
+                </div>
+                <div>
+                    <input type="text" placeholder="Extension territorial"  id='Extension' required data-error-message="requerido">
+                </div>
+                <div>
+                    <input type="text" placeholder="Cantidad municipios" name='municipios' id='municipios' data-required="true" data-error-message="requerido">
+                </div>
+                <div>
+                   <input type="text" placeholder="Cantidad Habitantes"  id='Habitantes' data-required="Habitantes" data-error-message="requerido">
+                </div>
+                <div>
+                   <input type="text" placeholder="Cabecera departamental"  id='cabe' data-required="Cabecera" data-error-message="requerido">
+                </div>
+                <label>Galeria de imagenes</label>
+                <div>
+                   <input type="file" placeholder="imagen 1"  id='1' required data-error-message="requerido">
+                   <input type="file" placeholder="imagen 2"  id='2' required data-error-message="requerido">
+                   <input type="file" placeholder="imagen 3"  id='3' required data-error-message="requerido">
+                </div>
+                <div>
+                    <div class="small">Historia del departamento</div>
+                    <textarea placeholder="Historia"></textarea>
+                </div>    
+                 <div>
+                    <div class="small">Cultura del departamento</div>
+                    <textarea placeholder="Cultura"></textarea>
+                </div>  
+                 <div>
+                    <div class="small">Turismo del departamento</div>
+                    <textarea placeholder="Turismo"></textarea>
+                </div>  
+                 <div>
+                    <div class="small">Platos tipicos del departamento</div>
+                    <textarea placeholder="Platos tipicos"></textarea>
+                </div>  
+                <input type="submit" name="submit" value="Enviar"/>
+            </fieldset>    
+        </form>
+    </div>
+    <!-- 
+    ****** Librerias javascript ****** 
+
+    1) Libreria JQUERY universal para el control de efectos, mapa y funciones generales
+  
+    2 Control menu responsivo para dispositivos moviles
+    
+    !!!!! Orden de arriba hacia abajo !!!!!  
+ -->    
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script type="text/javascript" src="js/control_menu_responsivo.js"></script>
+</body>
+</html>
