@@ -1,0 +1,1504 @@
+<<<<<<< HEAD
+/**********************************************
+
+	Estilos Responsivos MITUR EL SALVADOR
+
+***********************************************/
+@media(max-width: 360px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 170px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93.20%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.3em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_universal{
+		font-size: 1.05em;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+}/*Cierre maximo hasta 360 px*/
+
+@media (min-width: 361px) and (max-width: 480px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 190px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.redes-sociales img{
+		width: 100%;
+		max-width: 40px;
+		border: 2px solid #A4A4A4;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93.20%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.3em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+}/*Cierre minimo 361px a maximo 480 px*/
+
+@media (min-width: 481px) and (max-width: 640px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+	
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 195px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.6em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+
+}/*Cierre minimo 481px a maximo 640 px*/
+
+@media (min-width: 641px) and (max-width: 768px){
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 195px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 500px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 4.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 95%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.8em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.titulo_menu{
+		font-size: 1.1em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+}/*Cierre minimo 641px a maximo 768 px*/
+
+@media (min-width: 769px) and (max-width: 1023px){
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 235px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 500px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 4.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 96%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 2em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 400px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.titulo_menu{
+		font-size: 1.1em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+}/*Cierre minimo 769px a maximo 1023 px*/
+
+@media(min-width: 1024px) and (max-width: 1200px){
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 97%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		font-size: 60px;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}/*Cierre minimo 1024px a maximo 1200 px*/
+
+
+
+/**********************************************************
+	REGLAS APLICADAS ESTRICTAMENTE AL MENU DE NAVEGACION
+***********************************************************/
+
+@media(min-width: 1024px) and (max-width: 1320px){
+	.logo{
+		padding: 1em 0 1em 2.1em;
+	}
+
+	.logo img{
+		max-width: 210px;
+	}
+
+	#menu_MITUR{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 700px;
+		float: right;
+	}
+
+	#menu_MITUR li{
+		padding-bottom: 0.5em;
+		width: 140px;
+		height: 100px;
+		float: left;
+		list-style-type: none;
+		text-align: center;
+		display: block;
+	}	
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+	}
+=======
+/**********************************************
+
+	Estilos Responsivos MITUR EL SALVADOR
+
+***********************************************/
+@media(max-width: 360px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 170px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93.20%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.3em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+		font-size: 1.05em;
+	}
+
+	.division_departamentos_universal{
+		font-size: 1.05em;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+}/*Cierre maximo hasta 360 px*/
+
+@media (min-width: 361px) and (max-width: 480px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 190px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.redes-sociales img{
+		width: 100%;
+		max-width: 40px;
+		border: 2px solid #A4A4A4;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93.20%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.3em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+}/*Cierre minimo 361px a maximo 480 px*/
+
+@media (min-width: 481px) and (max-width: 640px){
+	.fb, .yt, .tw, .login, .nuevo_departamento{
+		display: none !important;
+	}
+	
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 195px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 300px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 3.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 93%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.6em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.arriba{
+		display: none !important;
+	}
+
+	.titulo_menu{
+		font-size: 0.9em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+
+	.footer_izq, .footer_der{
+		display: block;
+		float: left;
+	}
+
+	.footer_izq{
+		width: 100%;
+	}
+
+	.footer_der{
+		width: 100%;
+	}
+
+}/*Cierre minimo 481px a maximo 640 px*/
+
+@media (min-width: 641px) and (max-width: 768px){
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 195px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 500px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 4.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 95%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 1.8em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 300px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.titulo_menu{
+		font-size: 1.1em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+}/*Cierre minimo 641px a maximo 768 px*/
+
+@media (min-width: 769px) and (max-width: 1023px){
+	.logo{
+		padding: 1.1em 0 0 1em;
+	}
+
+	.logo img{
+		max-width: 235px;
+	}
+
+	header{
+		position: absolute !important;
+		height: 100px; 
+	}
+
+	#menu_MITUR{
+		min-width: 100%;
+		height: 80px;
+		margin: -1.3em auto; 
+		display: none;
+	}
+
+	#menu_MITUR li{
+		width: 100%;
+		height: 80px;
+		background: #45484d;
+		background: -ms-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -o-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -moz-linear-gradient(left, #45484d 0%, #000000 100%);
+		background: -webkit-linear-gradient(left, #45484d 0%,#000000 100%);
+		background: linear-gradient(to right, #45484d 0%,#000000 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+		border-bottom: 3px solid #A4A4A4;
+		float: none;
+		list-style-type: none;
+	}
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+		line-height: 80px;
+	}
+
+	#menu_responsivo{
+		position: relative;
+		margin-right: 1.5em;
+		display: block;
+		cursor: pointer;
+	}
+
+	.banner, .banner_sonsonate, .banner_ahuachapan, .banner_cabanas, .banner_chalatenango, .banner_cuscatlan, .banner_la_libertad, .banner_san_vicente, .banner_san_miguel, .banner_usulutan, .banner_morazan, .banner_san_salvador, .banner_la_paz, .banner_santa_ana, .banner_la_union{
+		max-height: 500px;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		padding-top: 4.9em;
+		margin: 0 0.2em 0 0.2em;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 96%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	.mapa_SV > h1.titulo_principal_mapaSV{
+		font-size: 2em !important;
+	}
+
+	.info_telefono_mitur{
+		height: 400px !important;
+	}
+
+	.info_telefono_mitur h3{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	button.telefono_mitur{
+		width: 290px;
+		height: 100px;
+		font-size: 1.1em;
+	}
+
+	.titulo_menu{
+		font-size: 1.1em;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.division_departamentos_occidente{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_centro{
+		width: 96.50%;
+		display: block;
+	}
+
+	.division_departamentos_oriente{
+		width: 96.50%;
+		display: block;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-bottom: 0.9em;
+	}
+}/*Cierre minimo 769px a maximo 1023 px*/
+
+@media(min-width: 1024px) and (max-width: 1200px){
+	.servicio01, .servicio02, .servicio03{
+		display: block;
+		width: 97%;
+		height: auto;
+		float: none;
+	}
+
+	.servicio01 img, .servicio02 img, .servicio03 img{
+		height: auto;
+	}
+
+	img.mapa_menu_desplegable{
+		width: 100%;
+		min-height: 100%;
+	}
+
+	.banner > h1.titulo_principal, .banner_sonsonate h1.titulo_principal, .banner_ahuachapan h1.titulo_principal, .banner_cabanas h1.titulo_principal, .banner_chalatenango h1.titulo_principal, .banner_cuscatlan h1.titulo_principal, .banner_la_libertad h1.titulo_principal, .banner_san_vicente h1.titulo_principal, .banner_san_miguel h1.titulo_principal, .banner_usulutan h1.titulo_principal, .banner_morazan h1.titulo_principal, .banner_san_salvador h1.titulo_principal, .banner_la_paz h1.titulo_principal, .banner_santa_ana h1.titulo_principal, .banner_la_union h1.titulo_principal{
+		font-size: 60px;
+	}
+
+	img.fotos{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}/*Cierre minimo 1024px a maximo 1200 px*/
+
+
+
+/**********************************************************
+	REGLAS APLICADAS ESTRICTAMENTE AL MENU DE NAVEGACION
+***********************************************************/
+
+@media(min-width: 1024px) and (max-width: 1320px){
+	.logo{
+		padding: 1em 0 1em 2.1em;
+	}
+
+	.logo img{
+		max-width: 210px;
+	}
+
+	#menu_MITUR{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 700px;
+		float: right;
+	}
+
+	#menu_MITUR li{
+		padding-bottom: 0.5em;
+		width: 140px;
+		height: 100px;
+		float: left;
+		list-style-type: none;
+		text-align: center;
+		display: block;
+	}	
+
+	#menu_MITUR li a{
+		font-size: 1.1em;
+	}
+>>>>>>> 68f05a6e12cde8e9675af567b4a4dda54cf0c5c3
+}
